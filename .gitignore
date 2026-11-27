@@ -1,0 +1,23 @@
+# Virtual Environment & Python Bytecode
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment & Secrets (NEVER commit real private keys or .env!)
+.env
+*.wif
+*.key
+wallets_local/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
